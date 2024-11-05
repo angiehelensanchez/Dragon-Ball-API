@@ -1,3 +1,5 @@
+
+
 :root{
     --red: #F21D44;
     --purple: #553F73;
@@ -9,34 +11,39 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    
+}
+
+.img-fluid{
+    background-image: url("../img/backgroundCharacters.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
-.img-fluid rounded-start{
-    width: 200px;
-}
-.card-mb-3{
-    border-radius: 50px;
+.col-md-4 img{
+    height: 300px;
+    width: 100%;
 }
 
 
 .card-body{
     background-color: var(--purple);
-    
+    width:200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
 }
 .card-title{
-    color:var(--red);
-    font-size: 40px;
-    
+    font-size: 20px;
 }
 .card-text{
-    font-size: 20px;
+    font-size: 10px;
     color: var(--yellow);
 }
-.card-subtitle{
-    font-size: 25px;
+.card-text2{
+    font-size: 15px;
     color: var(--dark-orange);
-    
-}
+} 
 
 
