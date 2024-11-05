@@ -1,0 +1,33 @@
+
+.characterContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.introShop{
+    text-align: center;
+    margin: 10px 30px 10px 30px;
+}
+
+.characterContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card{
+    border-radius: 50px;
+}
+
+.card-body{
+    background-color: var(--dark);
+}
+
+.card-body h5, .card-body p, .card-body h3{
+    color: var(--white);
+}
+
+.card-body i{
+    color: var(--light-orange);
+}
