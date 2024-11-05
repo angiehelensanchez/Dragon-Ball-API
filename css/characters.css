@@ -1,33 +1,42 @@
-
-.characterContainer{
-    width: 100%;
-    display: flex;
-    justify-content: center;
+:root{
+    --red: #F21D44;
+    --purple: #553F73;
+    --yellow: #F2CB05;
+    --orange: #F2AE2E;
+    --dark-orange: #D96704 ;
 }
-
-.introShop{
-    text-align: center;
-    margin: 10px 30px 10px 30px;
-}
-
 .characterContainer{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.card{
+
+.img-fluid rounded-start{
+    width: 200px;
+}
+.card-mb-3{
     border-radius: 50px;
 }
 
+
 .card-body{
-    background-color: var(--dark);
+    background-color: var(--purple);
+    
+}
+.card-title{
+    color:var(--red);
+    font-size: 40px;
+    
+}
+.card-text{
+    font-size: 20px;
+    color: var(--yellow);
+}
+.card-subtitle{
+    font-size: 25px;
+    color: var(--dark-orange);
+    
 }
 
-.card-body h5, .card-body p, .card-body h3{
-    color: var(--white);
-}
 
-.card-body i{
-    color: var(--light-orange);
-}
