@@ -1,0 +1,18 @@
+@import url(characters.css);
+@import url(planets.css);
+
+:root{
+    --red: #F21D44;
+    --purple: #553F73;
+    --yellow: #F2CB05;
+    --orange: #F2AE2E;
+    --dark-orange: #D96704 ;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
