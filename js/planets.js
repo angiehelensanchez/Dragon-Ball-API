@@ -17,7 +17,7 @@ async function fetchPlanetJson() {
 function createPlanetCard ({name, isDestroyed, image, description }){
     return `
         <div class="card m-4" style="width: 30rem">
-            <img src="${image}" class="card-img-top" alt="Person wearing a ${name}.">
+            <img src="${image}" class="card-img-top" alt="Person wearing a.">
             <div class="card-body">
                 <div class="d-flex justify-content-between">
                     <h5 class="card-title">${name}</h5>
@@ -26,8 +26,7 @@ function createPlanetCard ({name, isDestroyed, image, description }){
                     
                     </div>
                 </div>
-                <p class="card-text mb-4">${isDestroyed}</p>
-                <h3>${description} </h3>
+                <p class="card-text mb-4">${isDestroyed? "Destroyed" : "Not Destroyed"}</p>
             </div>
         </div>
     `;
