@@ -16,13 +16,13 @@ async function fetchCharacterJson() {
 
 function createCharacterCard ({name, race, gender, ki, maxKi, affiliation, image}){
     return `
-        <div class="card mb-3" style="width: 300px">
+        <div class="card mb-3" style="width: 500px">
             <div class="row g-0">
                 <div class="col-md-4">
                 <img src="${image}" class="img-fluid rounded-start" alt="Dragon ball character ${name}.">
                 </div>
                 <div class="col-md-8">
-                    <div class="card-body">
+                    <div class="card-body" style="height: 100%">
                         <h5 class="card-title">${name}</h5>
                         <p class="card-text">${race}-${gender}</p>
                         <p class="card-text2">Base KI:</p>
