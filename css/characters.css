@@ -8,9 +8,7 @@
     --dark-orange: #D96704 ;
 }
 
-main,header, footer{
-    background-color: var(--dark-orange);
-}
+
 
 
 header{

@@ -9,6 +9,9 @@
     --dark-orange: #D96704 ;
 }
 
+main,header, footer{
+    background-color: var(--dark-orange);
+}
 
 body {
     background-color: var(--purple);
@@ -21,6 +24,7 @@ body {
 header{
     display: flex;
     justify-content: center;
+    width: 100%;
 
 }
 
@@ -38,8 +42,8 @@ main section{
 
 .characterButton {
     background-image: url(../img/backgroundCharacters.jpg);
-    width: 50%;
-    height: 200px;
+    max-width: 50%;
+    max-height: 200px;
     text-align: center;
 
 }
