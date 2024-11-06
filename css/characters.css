@@ -12,6 +12,7 @@ main,header, footer{
     background-color: var(--dark-orange);
 }
 
+
 header{
     display: flex;
     justify-content: center;
@@ -87,13 +88,5 @@ header img:hover{
     text-align: center;
 } 
 
-
-footer{
-    display: flex;
-    justify-content: center;
-}
-footer p{
-    font-size: 30px;
-}
 
 

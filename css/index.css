@@ -9,10 +9,40 @@
     --dark-orange: #D96704 ;
 }
 
-header{
-    display: flex;
-    justify-content: center;
-    
+
+body {
+    background-color: var(--purple);
+    background-repeat: repeat;
+    background-size: cover;
+
 }
 
 
+header{
+    display: flex;
+    justify-content: center;
+
+}
+
+h1{
+    font-size: 100px;
+    color: var(--purple);
+}
+
+
+.characterButton {
+    background-image: url(../img/backgroundCharacters.jpg);
+    width: 50%;
+    height: 200px;
+    text-align: center;
+
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+footer p{
+    font-size: 30px;
+}
