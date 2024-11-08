@@ -17,7 +17,7 @@ async function fetchPlanetJson() {
 function createPlanetCard ({name, isDestroyed, image, description }){
     return `
         <div class="card m-4" style="width: 30rem">
-            <img src="${image}" class="card-img-top" alt="Person wearing a.">
+            <img src="${image}" class="card-img-top" alt="Dragon Ball planet ${name}">
             <div class="card-body">
                 <div class="d-flex justify-content-between">
                     <h5 class="card-title">${name}</h5>
